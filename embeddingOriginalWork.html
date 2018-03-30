@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>embeddingOriginalWork</title>
+	</head>
+	
+	<!--Level 3: Master. Show us a page that has:
+	A Youtube video that plays starting at minute 3 and another feature that you can't get from the basic embed code you paste from Youtube
+	A video and audio file that plays using the HTML5 video and audio tags
+	Something using the object tag that is not flash
+	An RSS feed displayed-->
+	
+	<body>
+		<h1>Youtube Video</h1>
+		<p>The video below begins at 3 minutes</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" 
+		allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<h1>Tennis Video</h1>
+		<!--Add roger federrer tennis video here -->
+		<!--https://www.w3schools.com/html/html5_video.asp -->
+		<video width="50%" height="50%" controls>
+			<source src="movie.mp4" type="video/mp4">
+			<source src="movie.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video>
+		
+		<h1>Piano audio</h1>
+		<audio controls>
+			<!--add Song file below https://www.w3schools.com/html/html5_audio.asp -->
+			<source src="horse.ogg" type="audio/ogg">
+			<source src="horse.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</body>
+</html>
