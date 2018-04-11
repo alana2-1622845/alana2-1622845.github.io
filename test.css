@@ -1,5 +1,6 @@
 #Header {
 	width: 500px;
+	border: double;
 }
 
 #Header h1{
@@ -8,6 +9,7 @@
 	color: #FFBC00;
 	font-weight: bold;
 	font-style: italic;
+	border: double;
 }
 
 #LeftNav {
